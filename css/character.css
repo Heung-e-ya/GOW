@@ -1,0 +1,25 @@
+.cha_01,.cha_02{position:absolute;}
+.cha_01{top:0}
+.cha_02{right:10%;}
+
+
+#section0 .title_text{
+    font-family: 'Rye', cursive;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#section0 .title_text >h1{
+    font-size: 50px;
+    font-weight:100;
+    letter-spacing:30px;
+    text-align: center;
+}
+#section0 .title_text > p{
+    width:70%;
+    margin:0 auto;
+    text-align: center;
+}
