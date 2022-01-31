@@ -195,3 +195,22 @@ $(function(){
 });
 });
 
+
+// 캐릭터 설명 모달
+$(function(){
+  $('.choice .sonbtn').on('click', function () {
+    $('.son_modal').fadeIn();
+    
+  });
+  $('.choice2 .fatherbtn').on('click', function () {
+    $('.father_modal').fadeIn();
+    
+  });
+
+  $('.close').on('click', function(){
+    $('.pop_modal').fadeOut();
+    
+  });
+});
+
+
