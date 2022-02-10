@@ -2,7 +2,7 @@
 .cha_01{top:0}
 .cha_02{right:10%;}
 
-
+img { pointer-events: none;}
 #section0 .title_text{
     font-family: 'Rye', cursive;
     position: absolute;

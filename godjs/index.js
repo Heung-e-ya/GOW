@@ -4,6 +4,8 @@ $(function(){
 });
 
 
+
+
 // 동영상 클릭시
 $(function() {
   const black_bg = $('.black_bg');

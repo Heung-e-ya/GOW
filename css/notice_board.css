@@ -10,7 +10,7 @@
     height: 100%;
     
 }
-
+img { pointer-events: none;}
 .logo{
     width: 100px;
     /* height: 100px; */
