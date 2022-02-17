@@ -72,35 +72,35 @@ $(function(){
 });
 });
 
-// 모달창
-$(function(){
-  const modal = document.querySelector(".modal");
-  const img = document.querySelector('.imo');
-  const modal_img = document.querySelector(".modal_content");
-  const span = document.querySelector(".close");
+// 모달창 test
+// $(function(){
+//   const modal = document.querySelector(".modal");
+//   const img = document.querySelector('.imo');
+//   const modal_img = document.querySelector(".modal_content");
+//   const span = document.querySelector(".close");
 
   // img.addEventListener('click', ()=>{
   //   modalDisplay("block");
   //   modal_img.src = img.src;
   // });
   
-  $('.m1_box img').click(function() {
-    $('.m1_box').each(function(){
-      modalDisplay("block");
-      modal_img.src = img.src;
-    });
-  });
+//   $('.m1_box img').click(function() {
+//     $('.m1_box').each(function(){
+//       modalDisplay("block");
+//       modal_img.src = img.src;
+//     });
+//   });
 
-  span.addEventListener('click', ()=>{
-    modalDisplay("none");
-  });
-  modal.addEventListener('click', ()=>{
-    modalDisplay("none");
-  });
-  function modalDisplay(text){
-    modal.style.display = text;
-  }
-});
+//   span.addEventListener('click', ()=>{
+//     modalDisplay("none");
+//   });
+//   modal.addEventListener('click', ()=>{
+//     modalDisplay("none");
+//   });
+//   function modalDisplay(text){
+//     modal.style.display = text;
+//   }
+// });
 
 // swiper
 
