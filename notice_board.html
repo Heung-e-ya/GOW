@@ -17,48 +17,55 @@
 <body>
     <div class="wrap">
         <div class="notice_bg">
-            <h1 class="logo">
-                <a href="./index.html"><img src="./img/LOGO.png" alt="로고"></a>
-            </h1>
-            <div id="sel" style="width:100%; height:500px;">
-                <table class="table table-hover" style="width:50%; margin:0 auto; position:absolute; top: 30%; left:50%; transform: translate(-50%,-50%);">
-                    
-                    <thead>
-                        
-                        <tr style="text-align: center;">
-                            
-                            <!-- <th scope="col">#</th> -->
-                            <th class="user" scope="col">작성자</th>
-                            <th class="title" scope="col">제목</th>
-                            <th class="date" scope="col">날짜</th>
-                            <th class="inquiry" scope="col">조회</th>
-                        </tr>
-                    </thead>
-                    <tbody class="NewBox" style="text-align:center;">
-                        <tr>
-                            <th scope="row">Mark</th>
-                            <td>아이템 파밍</td>
-                            <td>10/21</td>
-                            <td>5021</td>
-                            
-                        </tr>
-                        <tr>
-                            <th scope="row">Jacob</th>
-                            <td>1-2 공략법</td>
-                            <td>5/4</td>
-                            <td>4320</td>
-                            
-                        </tr>
-                        <tr>
-                            <th scope="row">Larry</th>
-                            <td>크레이토스 스킬트리</td>
-                            <td>3/12</td>
-                            <td>6542</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="logo_grid">
+                <h1 class="logo">
+                    <a href="./index.html"><img src="./img/LOGO.png" alt="로고"></a>
+                </h1>
             </div>
-            <button style="float: right; margin-right:25%;">글쓰기</button>
+            <div class="sel_grid">
+                <div id="sel">
+                    <table class="table table-hover">
+                        
+                        <thead>
+                            
+                            <tr style="text-align: center;">
+                                
+                                <!-- <th scope="col">#</th> -->
+                                <th class="user" scope="col">작성자</th>
+                                <th class="title" scope="col">제목</th>
+                                <th class="date" scope="col">날짜</th>
+                                <th class="inquiry" scope="col">조회</th>
+                            </tr>
+                        </thead>
+                        <tbody class="NewBox" style="text-align:center;">
+                            <tr>
+                                <th scope="row">Mark</th>
+                                <td>아이템 파밍</td>
+                                <td>10/21</td>
+                                <td>5021</td>
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Jacob</th>
+                                <td>1-2 공략법</td>
+                                <td>5/4</td>
+                                <td>4320</td>
+                                
+                            </tr>
+                            <tr>
+                                <th scope="row">Larry</th>
+                                <td>크레이토스 스킬트리</td>
+                                <td>3/12</td>
+                                <td>6542</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+                <button class="text_write">글쓰기</button>
+            </div>
+            
+            
         
         </div>
     </div>
